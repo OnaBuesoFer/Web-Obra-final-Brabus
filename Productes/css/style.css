@@ -1,0 +1,361 @@
+/*FONTS O TIPOS START*/
+
+@font-face{
+    font-family: Adirek Serif;
+    src: url("..Tipo/Adirek Serif Black.ttf");
+}
+
+@font-face{
+    font-family: Adirek Serif ExtraLight;
+    src: url("..Tipo/Adirek Serif ExtraLight.ttf");
+}
+
+@font-face{
+    font-family: Adirek Serif SemiBold;
+    src: url("..Tipo/Adirek Serif SemiBold.ttf");
+}
+
+
+.navbar {
+    z-index: 25;
+}
+
+.menu{
+    background-color: #ECECEC !important;
+    height: 80px;
+}
+
+.logo {
+/*  display: block;*/
+    width: auto;
+    height: 100%;
+    margin-left: 2%;
+}
+
+.logo img {
+/*  display: block;*/
+    width: auto;
+    height: 100%;
+}
+.MenuText{
+    margin-right: 10% !important;
+}
+
+.colorMenu{
+    color: black;
+}
+
+.colorMenu:hover{
+    color: red;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+/*ACABAR DE MIRAR QUE NO SURT BE*/
+
+.CaixaRederaMenu{
+    background-color: #ECECEC;
+
+}
+
+.BottonReserva{
+    width: 100%;
+    height: 80%;
+    margin-top: 4%;
+    border-radius: 50px;
+}
+
+/*Start 2*/
+
+.carousel{
+/*  background-color: royalblue;*/
+    height: 50%;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.TitolROCKET{
+    color: white;
+    font-size: calc(20px + 1vw);
+    top: -50%;
+    transform: translate(13%, -350%);
+}
+
+@media (min-width: 350px) and  (max-width: 1399.98px)
+{ 
+
+    .TitolROCKET
+    {
+    font-size: calc(10px + 1vw);
+    transform: translate(15%, -300%);
+    }
+}
+
+.ContainerText{
+/*  background-color: lawngreen;*/
+}
+
+.Sect2{
+    font-family: Adirek Serif ExtraLight;
+    font-size: calc(2.5em + 1vw);
+}
+.DefSect2{
+    width: 75%;
+    margin-left: 15%;
+    text-align: center;
+    font-size: calc(2px + 1vw);
+}
+
+/*END 2*/
+
+
+/*section 3*/
+
+#Carta{
+/*  background-color: skyblue;*/
+    margin-top: 8%;
+}
+
+.flip-card {
+ background-color: transparent;
+  width: 350px;
+  height: 200px;
+  border: none;
+  perspective: 1000px; 
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+/*  background-color: orange;*/
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+/*  background-color: #bbb;*/
+  color: black;
+}
+
+.flip-card-back {
+  background-color: black;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.caixaaROW{
+    display: flex;
+    flex-wrap: wrap;
+/*  background-color: red;*/
+}
+
+.TitolCataText{
+    padding: 4%;
+    font-size: calc(2.5px + 1vw);
+}
+
+.TitolCatdDwf{
+    padding: 4%;
+    font-size: 12px;
+}
+
+/*END 3*/
+
+
+/*section 4*/
+
+#InfoProducts{
+    height: auto;
+    margin-top: 55%;
+/*    background-attachment: fixed;*/
+/*    background-color: blanchedalmond;*/
+}
+
+.imag1{
+    height: auto;
+/*    background-color: yellowgreen;*/
+}
+
+.imag1 img{
+    width: 100%;
+    height: auto;
+}
+
+
+.ContainerText2{
+    margin-top: 5%;
+}
+
+.LuxosTitul{
+    padding: 2%;
+    font-family: Adirek Serif ExtraLight;
+    font-size: calc(3.5em + 1vw);
+    color: white;
+    position: relative;
+    z-index: 20;
+    margin-bottom: -50%;
+}
+
+.Sect4{
+    font-family: Adirek Serif;
+    text-align: center;
+    font-size: calc(2.5em + 1vw);
+}
+
+.Sect4B{
+    font-family: Adirek Serif SemiBold;
+    font-size: calc(2.5em + 1vw);
+}
+
+.DefSect4{
+    width: 75%;
+    margin-left: 15%;
+    text-align: center;
+    font-size: calc(2px + 1vw);
+}
+
+
+.GalleryContainerImg{
+    margin-top: 4%;
+/*    background-color: blueviolet;*/
+}
+
+img{
+    width: 80%;
+    height: auto;
+}
+
+.DefSect4B{
+    width: 75%;
+    margin-left: 15%;
+    margin-top: 2.5%;
+    text-align: center;
+    font-size: calc(2px + 1vw);
+}
+
+.ImagCaixaSeg{
+    height: 60vh;
+    background-image: url("../media/_BRA1115-1920x1080.jpg");
+    background-size: cover;
+}
+
+
+.VideoInterior{
+/*    background-color: blue;*/
+    width: auto;
+    height: auto;
+}
+
+
+video{
+    width: 100%;
+    height: auto;
+}
+
+
+
+/*footer*/
+
+#Footer{
+    width: auto;
+    height: 100%;
+    margin-top:-1%;
+    background-color: black;
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
