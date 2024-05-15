@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+
+	<!-- LINKS DE BOOTSTRAP PERQUE NO EM VA BE -->
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<script src="scripts/main.js"></script>
+	  	<!-- LOGO + LINK STYLE.CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" type="image/x-icon" href="media/logo_barra.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>BRABUS</title>
+
+</head>
+<body>
+	
+	<!-- NAV INICI DE LA PAGIA -->
+
+	<nav class="navbar navbar-expand-lg bg-body-tertiary menu">
+	    <div class="container-fluid h-100">
+	        <a class="navbar-brand logo" href="#"> 
+	        	<img src="media/Logo_brabus.png" > 
+	        </a>
+	        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	          <span class="navbar-toggler-icon"></span>
+	        </button>
+
+	          <div class="collapse navbar-collapse MenuText   MenuTextCaixa justify-content-end" id="navbarNavDropdown">
+	                <ul class="navbar-nav CaixaRederaMenu">
+	                      <li class="nav-item CaixaRederaMenu">
+	                        <a class="nav-link  colorMenu" aria-current="page" href="productes.html">Productes</a>
+	                      </li>
+
+	                        <li class="nav-item dropdown ">
+
+	                        <a class="nav-link colorMenu dropdown-toggle" href="historia.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+	                          Sobre l'equip
+	                        </a>
+	                        <ul class="dropdown-menu">
+	                          <li><a class="dropdown-item" href="actualitat.html">Actualitat</a></li>
+	                          <li><a class="dropdown-item" href="historia.html">Historia</a></li>
+	                        </ul>
+	                              <!-- botton reserva -->
+	                        <li class="nav-item">
+	                          <button type="button" class="btn btn-outline-dark BottonReserva">
+	                            <h6 class="TextButton">Reserva</h6> </button>
+	                        </li>
+	                      </li>
+	                </ul>
+
+	          </div>
+	    </div>
+	</nav>
+
+	<!-- START 1 SECTION 3D + CARACTERISTIQUES --> 
+
+	<!-- POT VARIAR  -->
+
+	<section id="Motor3d" class="container-fluid px-4 text-center">
+          <div class="row gx-5">
+                              <div class="col-sm-12 col-md-8 herocol1">
+
+                                <div class="creators-embed-wrapper">
+                                  <iframe allow="camera" width="740" height="495" src="https://v.creators3d.com/index.html?load=%2Fviews%2Fproduction%2Fitem%2F20240419%2F3417937542035121%2F3417937542035121.glb&autorotate=true&json-data=1713514646280&decrypt=1&tv=163">
+                                  </iframe>
+                                </div>
+                                
+                              </div>
+
+                      <!-- CAIXA CARACTERISTIQUES -->
+                              
+           <div class="col-sm-12 col-md-4 herocol2">
+                  <div class="CaixaCaracteristiques">
+
+                      <div class="contenedor">
+                              <h1>BRABUS V8</h1>
+
+                                <div class="BrabusV8">
+                                  <div class="detalls">
+                                        <span>11%</span>
+                                        <span>Vuit cilindres en dos bancs</span>
+                                  </div>
+
+                                <div class="menuMotor">
+                                        <div id="Potencia-menuMotor"></div>
+                                </div>
+                          </div>
+
+                          <div class="BrabusV8">
+                                <div class="detalls">
+
+                                        <span>100%</span>
+                                        <span>Disposició en V: Compacitat relativa</span>
+                                </div>
+
+                                <div class="menuMotor">
+                                        <div id="Motor-menuMotor"></div>
+                                </div>
+                          </div>
+                                                  
+                          <div class="BrabusV8">
+                                <div class="detalles">
+                                        <span>33%</span>
+                                        <span>Potència ampla i rendiment bo</span>
+                                </div>
+
+                                <div class="menuMotor">
+                                        <div id="Sobrealimentación-menuMotor"></div>
+                                </div>
+                          </div>
+
+                          <div class="BrabusV8">
+                              <div class="detalles">
+                                        <span>55%</span>
+                                        <span>So distintiu i enèrgic</span>
+                              </div>
+
+                              <div class="menuMotor">
+                                        <div id="Gestión-menuMotor"></div>
+                              </div>
+                          </div>
+
+                          <div class="BrabusV8">
+                               <div class="detalles">
+                                        <span>44%</span>
+                                        <span>Resposta ràpida</span>
+                                </div>
+
+                                <div class="menuMotor">
+                                        <div id="Escape-menuMotor"></div>
+                                </div>
+                          </div>
+
+                          <div class="BrabusV8">
+                                <div class="detalles">
+                                          <span>66%</span>
+                                          <span>Desplaçament variable</span>
+                                </div>
+
+                                <div class="menuMotor">
+                                          <div id="Materiales-menuMotor"></div>
+                                </div>
+                          </div>
+
+                          <div class="BrabusV8">
+                                <div class="detalles">
+                                          <span>77%</span>
+                                          <span>Populars en vehicles diversos</span>   
+                                </div>
+
+                                <div class="menuMotor">
+                                          <div id="Personalización-menuMotor"></div>
+                                </div>
+                          </div>
+
+                          <div class="BrabusV8">
+                                <div class="detalles">
+                                            <span>88%</span>
+                                            <span>Tecnologies avançades</span>    
+                                </div>
+
+                                <div class="menuMotor">
+                                            <div id="Eficiencia-menuMotor"></div>
+                                </div>
+                          </div>
+
+                          <div class="BrabusV8">
+                                <div class="detalles">
+                                            <span>22%</span>
+                                            <span>Equilibri i suavitat excepcionals</span>                                        
+                                </div>
+
+                                <div class="menuMotor">
+                                            <div id="Garantía-menuMotor"></div>
+                                </div>
+                          </div>
+                      </div>
+
+                  </div>
+            </div>
+            </div>
+</section>
+ 
+<!-- END SECTION 1 -->
+
+
+
+<!-- START 2 SECTION SLAIDER --> 
+
+    <section class="wrapper">
+        <div class="container">
+            <input type="radio" name="slide" id="c1" checked>
+
+            <label for="c1" class="card">
+                <div class="row">
+                    <div class="icon">
+                        <img src="media/Carusel/LogoMarca/mercedes-benz.png" alt="">
+                    </div>
+                    <div class="description">
+                      
+                    </div>
+                </div>
+            </label>
+
+            <input type="radio" name="slide" id="c2" >
+            <label for="c2" class="card">
+                <div class="row">
+                    <div class="icon">
+                        <img src="media/Carusel/LogoMarca/smartLogo.png" alt="">
+                    </div>
+                    <div class="description">
+                        
+                    </div>
+                </div>
+            </label>
+
+            <input type="radio" name="slide" id="c3" >
+            <label for="c3" class="card">
+                <div class="row">
+                    <div class="icon">
+                        <img src="media/Carusel/LogoMarca/Maybach-Logo.png" alt="">
+                    </div>
+                    <div class="description">
+                        
+                    </div>
+                </div>
+            </label>
+
+            <input type="radio" name="slide" id="c4" >
+            <label for="c4" class="card">
+                <div class="row">
+                    <div class="icon">
+                        <img src="media/Carusel/LogoMarca/Porsche).png" alt="">
+                    </div>
+                    <div class="description">
+                    
+                    </div>
+                </div>
+            </label>
+
+             <input type="radio" name="slide" id="c5" >
+            <label for="c5" class="card">
+                <div class="row">
+                    <div class="icon">
+                        <img src="media/Carusel/LogoMarca/RollsRolls.png" alt="">
+                    </div>
+                    <div class="description">
+                        
+                    </div>
+                </div>
+            </label>
+
+        </div>
+    </section>
+
+<!-- END SECTION 2 -->
+
+<!-- START 3 SECTION SLAIDER --> 
+
+<section id="InfoActuIsto" class="px-4 text-center container-fluid">
+
+      <h1 class="TitulActualitat">ACTUALITAT</h1>
+
+
+<!-- VIDEO EDITAT -->
+ <div class="container-fluid overflow-hidden text-center ActualitatCaixa">
+    <div class="row gx-5">
+        <div class="col-sm-12 col-md-4 CaixaVideoActualitat">
+
+            <video width="100" height="100" autoplay muted loop>
+                 <source src="media/Video-Actu/Video_Brabus.mp4" type="video/mp4">
+            </video>
+
+        </div>
+
+
+<!-- LOGOTIPS AMB CAIXA CERCLE -->
+
+        <div class="container-fluid col-sm-12 col-md-8 CaixaInfoActualitat">
+                <div class="row CaixaLogos">
+
+                        <div class="col-3">
+                          <div class="p-3 Instegram">
+                             <a href="https://www.instagram.com/brabus/" target="_blank">
+                              <img src="media/Video-Actu/logoReds/LOGOinstagram.png" alt="">
+                              </a>
+                          </div>
+                        </div>
+
+                        <div class="col-3">
+                          <div class="p-3 Facebook">
+                            <a href="https://www.facebook.com/brabus/" target="_blank">
+                              <img src="media/Video-Actu/logoReds/LOGOfacebook.png" alt="">
+                               </a>
+                          </div>
+                        </div>
+
+                        <div class="col-3">
+                          <div class="p-3 linkedin">
+                             <a href="https://de.linkedin.com/company/brabus-gmbh" target="_blank">
+                              <img src="media/Video-Actu/logoReds/LOGOlinkedin.png" alt="">
+                               </a>
+                          </div>
+                        </div>
+
+                        <div class="col-3">
+                          <div class="p-3 youtube">
+                             <a href="https://www.youtube.com/BRABUSGmbH" target="_blank">
+                              <img src="media/Video-Actu/logoReds/LOGOyoutube.png" alt="">
+                               </a>
+                          </div>
+                        </div>
+
+                        <!-- <hr> QUAN ACABI MIRARMO BE -->
+                </div>
+            </div>
+    </div>
+
+    <div class="caixatext  container-fluid col-sm-12 col-md-12">
+        <p>
+            Explora les últimes novetats de BRABUS en personalització d'automòbils de luxe. Des de llançaments exclusius fins a col·laboracions destacades, continuem liderant el mercat amb innovació i rendiment excepcional. Els nostres esdeveniments d'alt perfil, com la Nit de la Signatura BRABUS, mostren el nostre compromís amb l'excel·lència i l'elegància en cada detall. Mantente al dia amb les nostres últimes notícies i projectes, on combinem alt rendiment amb un toc de luxe personalitzat.
+        </p>
+    </div>
+
+
+    <a type="button" class="btn btn-outline-dark BottonMesInfo" href="actualitat.html"  target="_blank"> Mes informacio </a>
+
+    <!-- CANVIA LA RUTA DEL BOTTO -->
+
+</div>
+
+
+        <div class="TextHistoria container-fluid">
+            <div class="DefTexthistoria col-md-12">
+                <h1 class="TitulHistoria col-md-12">HISTORIA</h1>
+
+                <p class="DescripcioHistoria col-md-12 col-sm-6">Brabus és una companyia alemanya especialitzada en el tuning d'automòbils de luxe, fundada en 1977 en Bottrop. Destaca per personalitzar vehicles de marques com Mercedes-Benz i Maybach, sent reconeguda per les seves millores en rendiment i disseny exclusiu.</p>
+
+
+
+                <a type="button" class="btn btn-outline-dark BottonMesInfoHIS" href="historia.html" target="_blank" > Mes informacio </a>
+            </div>
+        </div>
+
+
+
+</section>
+
+
+<!-- END SECTION 3 -->
+
+
+<!-- START 4 SECTION SLAIDER --> 
+
+
+<section id="Contactas">
+    
+
+<!-- TITUL -->
+
+    <h1 class="TitulCintactes">CONTACTA AMB L'EXCLUSIVITAT</h1>
+
+
+
+        <div class="TextContactes container-fluid">
+                <div class="TextDreccio">
+                    <h1 class="TitulDirecioContates">BRABUS Germany</h1>
+
+                    <p class="DefDireccioContactes">Brabus-Allee, D-46240 Bottrop, Germany</p>
+                </div>
+        </div>
+
+
+
+
+            <div class="questionariContactes">
+                
+
+                <form class="row g-3">
+                  <div class="col-md-6">
+                   
+                    <input type="text" class="form-control" id="inputEmail4"  placeholder="NOM">
+                  </div>
+                  <div class="col-md-6">
+                    
+                    <input type="text" class="form-control" id="inputPassword4" placeholder="COGNOM">
+                  </div>
+                  <div class="col-12">
+                  
+                    <input type="email" class="form-control" id="inputAddress" placeholder="COREO">
+                  </div>
+                  <div class="col-12">
+                    <input type="text" class="form-control" id="contact-phone" placeholder="TELEFON">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" class="form-control" id="inputCity" placeholder="CIUTAT">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="C. POSTAL">
+                  </div>
+
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">COMENTARI</label>
+                  </div>
+
+                  <!-- MODIFICAR EL BOTTON -->
+
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-outline-dark BottonContactos">ENVIAR</button>
+                  </div>
+                </form>
+
+            </div>
+
+                <!-- REBISAR TOT EL DIMARS -->
+
+</section>
+
+<!-- END SECTION 4 -->
+
+
+
+<!-- footer -->
+
+<section id="Footer"> 
+      <footer>
+    <div class="footerContainer">
+        <div class="socialIcons">
+            <a href="https://www.instagram.com/brabus/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/brabus/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://de.linkedin.com/company/brabus-gmbh" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/BRABUSGmbH" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul><li><a href="index.html">Home</a></li>
+                <li><a href="productes.html">Productes</a></li>
+                <li><a href="historia.html">Sobre l'equip</a></li>
+            </ul>
+        </div>
+        
+    </div>
+</footer>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
