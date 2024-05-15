@@ -1,0 +1,255 @@
+/*FONTS O TIPOS START*/
+
+@font-face{
+	font-family: Adirek Serif;
+	src: url("..Tipo/Adirek Serif Black.ttf");
+}
+
+
+/*END TIPOS AND FONTS*/
+
+/*start Nav*/
+
+.navbar {
+	z-index: 25;
+}
+
+.menu{
+	background-color: #ECECEC !important;
+	height: 80px;
+}
+
+.logo {
+/*	display: block;*/
+	width: auto;
+	height: 100%;
+	margin-left: 2%;
+}
+
+.logo img {
+/*	display: block;*/
+	width: auto;
+	height: 100%;
+}
+.MenuText{
+	margin-right: 10% !important;
+}
+
+.colorMenu{
+	color: black;
+}
+
+.colorMenu:hover{
+	color: red;    
+}
+
+.dropdown-toggle::after{
+	display: none;
+}
+
+/*ACABAR DE MIRAR QUE NO SURT BE*/
+
+.CaixaRederaMenu{
+	background-color: #ECECEC;
+
+}
+
+.BottonReserva{
+	width: 100%;
+	height: 80%;
+	margin-top: 4%;
+	border-radius: 50px;
+}
+
+/*end Nav*/
+
+
+/*Start the 1º section*/
+
+/*BANNER*/
+
+#Historia{
+    width: auto;
+    height: 25vh;
+    background-image: url("../media/BANNER_BRABUS-historia.jpg");
+    background-size: cover;
+    background-position: center top;
+ }
+
+.TitulHistoria{
+    font-size: calc(5.5em + 0.5vw);
+     font-family: Adirek Serif;
+    color: white;
+    text-align: center;
+/*    background-color: hotpink;*/
+}
+
+.DescripcioBaner{
+    width: 80%;
+    color: white;
+    font-size: calc(9px + 1vw);
+    text-align: center;
+    margin: 1%;
+    margin-left: 10%;
+}
+
+/*End 1º section*/
+
+/*Start the 2º section*/
+
+#CaixaHistoraAmbDef{
+    height: auto;
+    padding: 1%;
+    margin-top: 2%;
+/*    background-color: lightblue;*/
+}
+
+.CaixaHistora{
+/*	background-color: hotpink;;*/
+	width: auto;
+	margin-top: 4%;
+	padding: 0.5%;
+}
+
+
+
+.TitulHistoria1{
+    font-size: calc(4.4em + 1vw);
+    font-family: Adirek Serif;
+    color: black;
+    margin-top: 2%;
+    text-align: center;
+}
+
+
+.TestDescriptiu{
+	width: 100%;
+	padding: 1.3%;
+	text-align: left;
+/*	background-color: greenyellow;*/
+	font-size: calc(4px + 1vw);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.CaixaFotosCronologiques{
+	width: 100%;
+	height: 100%;
+	background-color: blue;
+	
+}
+
+.FotoCronologica{
+	width: auto;
+	height: 35vh;
+	margin-top: 3%;
+	background-color: deeppink;
+}
+
+.FotoCronologica img{
+	width: 100%;
+	height: auto;
+}
+
+/*START 5 SECTION FOOER*/
+
+#Footer{
+    width: auto;
+    height: 100%;
+    margin-top: 8%;
+    background-color: black;
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+
+/*END SECTION 5 FOOTER*/
